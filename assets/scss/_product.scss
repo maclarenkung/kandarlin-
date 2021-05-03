@@ -113,3 +113,144 @@
     }
   }
 }
+
+.sec-success{
+  width: 100%;
+  float: left;
+  position: relative;
+  padding: 50px 0;
+
+  .block-success {
+    float: left;
+    width: 100%;
+    border-radius: 10px;
+    padding: 100px 40px;
+    @include box-shadow(0px, 0px, 19px, 0px, rgba(0, 0, 0, 0.1));
+    @media #{$screen-xs-max} {
+      padding:40px;
+    }
+    .group-content {
+      padding: 20px 0;
+      h3{
+        color: #ffcba5;
+      }
+      p span{
+        color: #ff9899;
+        font-weight: bold;
+      }
+
+      a .btn{
+        color: #ff9899;
+      }
+    }
+    
+  }
+
+}
+
+.sec-login{
+  width: 100%;
+  height: 100%;
+  float: left;
+  position: absolute;
+  background-color: #fff;
+  top: 0;
+  left: 0;
+  @include flexbox;
+  @include align-items(center);
+  z-index: -1;
+  .block-overlay { position:fixed; top:0px; left:0px; width:100%; height:100%; background-color:rgba(255,255,255,0.8); display:none;z-index: 0; }
+  .btn-close{
+    background-color: #fff;
+    border-radius: 100px;
+    width: 40px;
+    height: 40px;
+    border:1px solid #000;
+    float: right;
+    text-decoration: none;
+    color: #000;
+    @include flexbox;
+    @include align-items(center);
+    @include justify-content(center);
+  }
+  .block-login{
+    float: left;
+    width: 100%;
+    border-radius: 10px;
+    padding: 40px;
+    @include box-shadow(0px, 0px, 19px, 0px, rgba(0, 0, 0, 0.1));
+    .form-group{
+      input{
+        border-radius: 100px;
+        width: 100%;
+        color: #000;
+        border:1px solid #eee;
+        background-color:#fff;
+        padding: 15px 20px;
+        outline: none;
+        &:focus {
+          border:1px solid #eee;
+          background-color: #fff;
+          color: #000;
+          
+        }
+      }
+
+    }
+  }
+
+}
+.sec-login.fade.show{z-index: 20;} 
+.sec-register.fade.show{z-index: 20;} 
+.sec-register{
+  width: 100%;
+  height: 100%;
+  float: left;
+  position: absolute;
+  background-color: #fff;
+  top: 0;
+  left: 0;
+  @include flexbox;
+  @include align-items(center);
+  z-index: -1;
+  .block-overlay { position:fixed; top:0px; left:0px; width:100%; height:100%; background-color:rgba(255,255,255,0.8); display:none;z-index: 0; }
+  .btn-close{
+    background-color: #fff;
+    border-radius: 100px;
+    width: 40px;
+    height: 40px;
+    border:1px solid #000;
+    float: right;
+    text-decoration: none;
+    color: #000;
+    @include flexbox;
+    @include align-items(center);
+    @include justify-content(center);
+  }
+  .block-register{
+    float: left;
+    width: 100%;
+    border-radius: 10px;
+    padding: 40px;
+    @include box-shadow(0px, 0px, 19px, 0px, rgba(0, 0, 0, 0.1));
+    .form-group{
+      input{
+        border-radius: 100px;
+        width: 100%;
+        color: #000;
+        border:1px solid #eee;
+        background-color:#fff;
+        padding: 15px 20px;
+        outline: none;
+        &:focus {
+          border:1px solid #eee;
+          background-color: #fff;
+          color: #000;
+          
+        }
+      }
+
+    }
+  }
+
+}
