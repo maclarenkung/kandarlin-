@@ -1,0 +1,82 @@
+// project specific variables
+$playfair: "Playfair Display", serif;
+
+$theme-color--primary: #df081a;
+$theme-color--red: #d92523;
+
+// Font Family
+$font-family-name: "sukhumvit", sans-serif;
+$heading-font-family-name: "Source Sans Pro", sans-serif;
+
+// yellow
+$color-k01: #f4d533;
+$color-k02: #b39543;
+
+// back
+$color-b01: #000000;
+$color-b02: #705712;
+
+// blue
+$color-b03: #25355b;
+
+
+
+// Responsive Variables
+$laptop-device: "only screen and (min-width: 1200px) and (max-width: 1499px)";
+$desktop-device: "only screen and (min-width: 992px) and (max-width: 1199px)";
+$tablet-device: "only screen and (min-width: 768px) and (max-width: 991px)";
+$large-mobile: "only screen and (max-width: 767px)";
+$small-mobile: "only screen and (max-width: 575px)";
+$extra-small-mobile: "only screen and (max-width: 479px)";
+
+$screen-lg-max:'(max-width: 1499px)';
+$screen-md-max:'(max-width: 1199px)';
+$screen-mds-max:'(max-width: 1024px)';
+$screen-sm-max:'(max-width: 991px)';
+$screen-xs-max:'(max-width: 767px)';
+$screen-xss:'(max-width: 575px)';
+$screen-xs:'(max-width: 479px)';
+
+$screen-i:'(max-width: 375px)';
+
+// Extra small devices (portrait phones, less than 576px)
+//@media (max-width: 575.98px) { ... }
+
+// Small devices (landscape phones, 576px and up)
+//@media (min-width: 576px) and (max-width: 767.98px) { ... }
+
+// Medium devices (tablets, 768px and up)
+//@media (min-width: 768px) and (max-width: 991.98px) { ... }
+
+// Large devices (desktops, 992px and up)
+//@media (min-width: 992px) and (max-width: 1199.98px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+//@media (min-width: 1200px) { ... }
+
+//@media (min-width: 576px) { ... }
+
+/// Medium devices (tablets, 768px and up)
+//@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+//@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+//@media (min-width: 1200px) { ... }
+
+$screen-xs: "(min-width: 480px)";
+$screen-xs-min: "(min-width: 576px)";
+$screen-sm-min: "(min-width: 768px)";
+$screen-md-min: "(min-width: 992px)";
+$screen-lg-min: "(min-width: 1200px)";
+$screen-xl-min: "(min-width: 1400px)";
+$screen-xls-min: "(min-width: 1600px)";
+
+$screen-xs-max: "(min-width: 480px)";
+$screen-xs-max: "(max-width: 576px)";
+$screen-sm-max: "(max-width: 768px)";
+$screen-md-max: "(max-width: 991px)";
+$screen-lg-max: "(max-width: 1200px)";
+$screen-xl-max: "(max-width: 1400px)";
+$screen-xls-max: "(max-width: 1600px)";

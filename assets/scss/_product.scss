@@ -1,0 +1,115 @@
+#product {
+  margin-top: 50px;
+  .pro-top {
+    .img-cssa {
+      //   max-width: 265px;
+    }
+    .text {
+      position: relative;
+      height: auto;
+      text-align: left;
+      padding-top: 50px;
+      .head {
+        p {
+          font-size: 24px;
+          font-weight: 500;
+          padding-bottom: 10px;
+        }
+        span {
+          font-weight: 100;
+        }
+      }
+
+      .detail {
+        padding: 15px;
+        font-size: 17px;
+      }
+    }
+    .button {
+      position: absolute;
+      bottom: 0;
+      width: 45%;
+      background: #808080;
+      padding: 15px;
+      color: #fff;
+      text-align: center;
+      text-decoration: none;
+      transition: 0.5s;
+      border: 1px solid #808080;
+      &:hover {
+        transition: 0.5s;
+        background: #fff;
+        color: #808080;
+        // transform: scale(1.01, 1.01);
+        // border: 1px solid #808080;
+      }
+    }
+  }
+  .detail-info {
+    margin-top: 100px;
+    // text-align: center;
+    @include flexbox;
+    @include justify-content(center);
+    @include align-items(center);
+    .head {
+      font-size: 24px;
+      font-weight: 500;
+      padding-bottom: 80px;
+      @include flexbox;
+      @include justify-content(center);
+      @include align-items(center);
+    }
+    .content {
+      .item {
+        padding-bottom: 50px;
+        @include flexbox;
+        @include justify-content(center);
+        @include align-items(center);
+        @include flex-direction(column);
+      }
+      .text-incenter {
+        width: 100%;
+        margin-top: 50px;
+        font-size: 26px;
+        color: #4d4d4d;
+        text-align: center;
+
+        span {
+          width: 100%;
+        }
+        .blue {
+          color: #01acd4;
+        }
+        .text-left {
+          text-align: left;
+        }
+        small {
+          font-size: 14px;
+        }
+      }
+      .headt {
+        width: 100%;
+      }
+      .text-in {
+        width: 100%;
+        // margin-top: 50px;
+        font-size: 26px;
+        color: #4d4d4d;
+        line-height: 1.2;
+
+        span {
+          width: 100%;
+        }
+        .blue {
+          color: #01acd4;
+        }
+        .text-left {
+          text-align: left;
+        }
+        small {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}
