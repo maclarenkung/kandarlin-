@@ -18,6 +18,7 @@
 <link type="text/css" rel="stylesheet" href="assets/css/reset.css" />
 <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css"/>
 <link rel="stylesheet" type="text/css" href="assets/css/bootstrap-select.min.css"/>
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
 <link type="text/css" rel="stylesheet" href="assets/css/swiper.min.css" />
 <link type="text/css" rel="stylesheet" href="assets/css/style.css" />
 <link type="text/css" rel="stylesheet" href="assets/css/responsive.css" />

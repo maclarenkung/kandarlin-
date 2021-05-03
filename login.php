@@ -3,8 +3,6 @@
 <body>
     <?php  require_once('./inc/inc_header.php')?>
     <div class="wrapper">
-        <button class="click-login">click login</button>
-        <button class="click-register">click register</button>
         
         <div class="sec-login fade">
             <div class="block-overlay" style="display:none;"></div>

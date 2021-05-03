@@ -2,8 +2,9 @@
 
 <body>
     <?php  require_once('./inc/inc_header.php')?>
+    
     <div class="wrapper">
-
+        
         <div class="sec-banner  w-100 ">
             <div class="position-relative">
                 <div class="swiper-container">

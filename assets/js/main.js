@@ -147,7 +147,7 @@ $( document ).ready(function() {
 	//================= SWIPER
 	////////////////////////////////////////////////////
 
-	var sec_banner = new Swiper('.sec-banner .swiper-container', {
+	var sec_banner = new Swiper('.swiper-container', {
 		speed: 600,
 		pagination: {
 		  el: '.swiper-pagination',
