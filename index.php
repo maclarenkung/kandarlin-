@@ -4,7 +4,7 @@
     <?php  require_once('./inc/inc_header.php')?>
     <div class="wrapper">
 
-        <div class="sec-banner float-left w-100 ">
+        <div class="sec-banner  w-100 ">
             <div class="position-relative">
                 <div class="swiper-container">
                     <div class="swiper-wrapper">
@@ -23,6 +23,32 @@
             </div>
         </div>
         <div class="welcome container">
+            <div class="head-top text-center">
+                <p>Welcome to</p>
+                <h2>Kandarlin Clinic</h2>
+
+            </div>
+            <div class="tent">
+                <img src="assets/image/bg-welcome.jpg" alt="" class="img-welcome img-fluid">
+                <div class="text-rightt container">
+                    <div class="headtop">
+                        <h1>Kandarlin Clinic</h1>
+                    </div>
+                    <div class="textbottom">
+                        <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis corrupti quod nam odit! Cumque ad tenetur voluptates ipsa commodi, voluptatibus quis sit, voluptate culpa obcaecati rerum rem repudiandae dignissimos sint.</span>
+                    </div>
+                    <div class="textbottom">
+                        <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis corrupti quod nam odit! Cumque ad tenetur voluptates ipsa commodi, voluptatibus quis sit, voluptate culpa obcaecati rerum rem repudiandae dignissimos sint.</span>
+                    </div>
+                    <div class="button">
+                        <a href="#" class="btn">
+                            READ MORE >
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="ourservice container">
             <div class="head-top text-center">
                 <p>Welcome to</p>
                 <h2>Kandarlin Clinic</h2>
