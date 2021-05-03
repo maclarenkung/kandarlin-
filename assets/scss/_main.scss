@@ -406,6 +406,13 @@
   }
 }
 
+
+.wrapper{
+  z-index: 1;
+  position: relative;
+  margin-top: 70px;
+}
+
 .welcome {
   padding-top: 2rem;
   .head-top {

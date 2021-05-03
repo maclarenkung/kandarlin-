@@ -1,8 +1,18 @@
 #headers {
   font-family: "Anuphan", sans-serif;
-  z-index: 2;
-  // height: 90px;
+  z-index: 3;
+  -webkit-box-shadow: 1px 4px 5px 0px rgba(184, 184, 184, 1);
+  -moz-box-shadow: 1px 4px 5px 0px rgba(184, 184, 184, 1);
+  box-shadow: 1px 4px 5px 0px rgba(184, 184, 184, 1);
+  height: 70px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  background: #fff;
   color: #000;
+  .navbar {
+    height: 70px;
+  }
   .form-inlines {
     display: flex;
     flex-direction: row;

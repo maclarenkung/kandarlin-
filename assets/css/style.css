@@ -298,9 +298,10 @@ body {
   font-smoothing: antialiased;
   -webkit-font-smoothing: antialiased;
   background-color: #fff;
-  font-family: 'Anuphan', sans-serif;
+  font-family: "Anuphan", sans-serif;
   line-height: 1.5;
-  color: #ff9899; }
+  color: #ff9899;
+  padding-top: 70px; }
 
 ol,
 ul {
@@ -360,8 +361,18 @@ body {
 
 #headers {
   font-family: "Anuphan", sans-serif;
-  z-index: 2;
+  z-index: 3;
+  -webkit-box-shadow: 1px 4px 5px 0px #b8b8b8;
+  -moz-box-shadow: 1px 4px 5px 0px #b8b8b8;
+  box-shadow: 1px 4px 5px 0px #b8b8b8;
+  height: 70px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  background: #fff;
   color: #000; }
+  #headers .navbar {
+    height: 70px; }
   #headers .form-inlines {
     display: flex;
     flex-direction: row; }
@@ -1182,6 +1193,11 @@ button {
       -moz-flex: 0 0 50%;
       -ms-flex: 0 0 50%;
       flex: 0 0 50%; }
+
+.wrapper {
+  z-index: 1;
+  position: relative;
+  margin-top: 70px; }
 
 .welcome {
   padding-top: 2rem; }
