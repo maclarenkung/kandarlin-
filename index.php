@@ -100,7 +100,7 @@
                 </div>
             </div>
         </div>
-        <div class="ourservice container">
+        <div class="testim container">
             <div class="head-top text-center">
                 <p>patient</p>
                 <h2>Testimonails</h2>
@@ -109,15 +109,33 @@
                <div class="swiper-container">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
-                            <img src="assets/image/bgs.jpg"
+                            <img src="assets/image/text-img.jpg"
                                 alt="" class="float-left w-100">
                         </div>
                         <div class="swiper-slide">
-                            <img src="assets/image/bgs.jpg"
+                            <img src="assets/image/text-img.jpg"
+                                alt="" class="float-left w-100">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="assets/image/text-img.jpg"
+                                alt="" class="float-left w-100">
+                        </div>
+                         <div class="swiper-slide">
+                            <img src="assets/image/text-img.jpg"
+                                alt="" class="float-left w-100">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="assets/image/text-img.jpg"
+                                alt="" class="float-left w-100">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="assets/image/text-img.jpg"
                                 alt="" class="float-left w-100">
                         </div>
                     </div>
                     <!-- Add Pagination -->
+                     <div class="swiper-button-next"></div>
+                     <div class="swiper-button-prev"></div>
                     <div class="swiper-pagination"></div>
                 </div>
             </div>
@@ -132,13 +150,38 @@
                             <img src="assets/image/bgs.jpg"
                                 alt="" class="float-left w-100">
                         </div>
+                        <div class="swiper-slide">
+                            <img src="assets/image/bgs.jpg"
+                                alt="" class="float-left w-100">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="assets/image/bgs.jpg"
+                                alt="" class="float-left w-100">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="assets/image/bgs.jpg"
+                                alt="" class="float-left w-100">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="assets/image/bgs.jpg"
+                                alt="" class="float-left w-100">
+                        </div>
                     </div>
                     <!-- Add Pagination -->
+                    <div class="swiper-button-next"></div>
+                     <div class="swiper-button-prev"></div>
                     <div class="swiper-pagination"></div>
                 </div>
             </div>
         </div>
-       
+       <div class="glad">
+           <div>
+               <span>Glad to give advise and assistance for any kind of desire Geauty</span>
+           </div>
+           <div class="btn"> 
+            Contact Us
+           </div>
+       </div>
 
       
        
