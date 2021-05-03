@@ -539,7 +539,7 @@ body {
   padding: 10px 0; }
   @media (max-width: 991px) {
     .group-content {
-      font-size: 1.4vh; } }
+      font-size: 1em; } }
 
 .group-content h1,
 .group-content h2,
@@ -577,6 +577,9 @@ body {
 
 .group-content a:not([class*=btn]) {
   color: #f5a1a1; }
+
+.group-content a.bold-a {
+  font-weight: bold; }
 
 .group-content input {
   width: 100%;
@@ -1432,5 +1435,192 @@ button {
         text-align: left; }
       #product .detail-info .content .text-in small {
         font-size: 14px; }
+
+.sec-success {
+  width: 100%;
+  float: left;
+  position: relative;
+  padding: 50px 0; }
+  .sec-success .block-success {
+    float: left;
+    width: 100%;
+    border-radius: 10px;
+    padding: 100px 40px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 19px 0px;
+    -khtml-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 19px 0px;
+    -moz-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 19px 0px;
+    -ms-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 19px 0px;
+    -o-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 19px 0px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 19px 0px; }
+    @media (max-width: 576px) {
+      .sec-success .block-success {
+        padding: 40px; } }
+    .sec-success .block-success .group-content {
+      padding: 20px 0; }
+      .sec-success .block-success .group-content h3 {
+        color: #ffcba5; }
+      .sec-success .block-success .group-content p span {
+        color: #ff9899;
+        font-weight: bold; }
+      .sec-success .block-success .group-content a .btn {
+        color: #ff9899; }
+
+.sec-login {
+  width: 100%;
+  height: 100%;
+  float: left;
+  position: absolute;
+  background-color: #fff;
+  top: 0;
+  left: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  align-items: center;
+  z-index: -1; }
+  .sec-login .block-overlay {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+    display: none;
+    z-index: 0; }
+  .sec-login .btn-close {
+    background-color: #fff;
+    border-radius: 100px;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #000;
+    float: right;
+    text-decoration: none;
+    color: #000;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+    justify-content: center; }
+  .sec-login .block-login {
+    float: left;
+    width: 100%;
+    border-radius: 10px;
+    padding: 40px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 19px 0px;
+    -khtml-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 19px 0px;
+    -moz-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 19px 0px;
+    -ms-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 19px 0px;
+    -o-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 19px 0px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 19px 0px; }
+    .sec-login .block-login .form-group input {
+      border-radius: 100px;
+      width: 100%;
+      color: #000;
+      border: 1px solid #eee;
+      background-color: #fff;
+      padding: 15px 20px;
+      outline: none; }
+      .sec-login .block-login .form-group input:focus {
+        border: 1px solid #eee;
+        background-color: #fff;
+        color: #000; }
+
+.sec-login.fade.show {
+  z-index: 20; }
+
+.sec-register.fade.show {
+  z-index: 20; }
+
+.sec-register {
+  width: 100%;
+  height: 100%;
+  float: left;
+  position: absolute;
+  background-color: #fff;
+  top: 0;
+  left: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  align-items: center;
+  z-index: -1; }
+  .sec-register .block-overlay {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+    display: none;
+    z-index: 0; }
+  .sec-register .btn-close {
+    background-color: #fff;
+    border-radius: 100px;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #000;
+    float: right;
+    text-decoration: none;
+    color: #000;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+    justify-content: center; }
+  .sec-register .block-register {
+    float: left;
+    width: 100%;
+    border-radius: 10px;
+    padding: 40px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 19px 0px;
+    -khtml-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 19px 0px;
+    -moz-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 19px 0px;
+    -ms-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 19px 0px;
+    -o-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 19px 0px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 19px 0px; }
+    .sec-register .block-register .form-group input {
+      border-radius: 100px;
+      width: 100%;
+      color: #000;
+      border: 1px solid #eee;
+      background-color: #fff;
+      padding: 15px 20px;
+      outline: none; }
+      .sec-register .block-register .form-group input:focus {
+        border: 1px solid #eee;
+        background-color: #fff;
+        color: #000; }
 
 /*# sourceMappingURL=style.css.map */
