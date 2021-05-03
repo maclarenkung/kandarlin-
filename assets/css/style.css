@@ -1252,7 +1252,8 @@ button {
         border-radius: 1rem; } }
 
 .ourservice {
-  padding-top: 2rem; }
+  padding-top: 3rem;
+  padding-bottom: 3rem; }
   .ourservice .head-top {
     padding-bottom: 2rem; }
     .ourservice .head-top p {
@@ -1263,57 +1264,30 @@ button {
   .ourservice .tent {
     display: flex;
     flex-direction: row;
-    border-radius: 2rem;
-    -webkit-box-shadow: 0px 0px 8px -2px #7d7d7d;
-    -moz-box-shadow: 0px 0px 8px -2px #7d7d7d;
-    box-shadow: 0px 0px 8px -2px #7d7d7d; }
-    .ourservice .tent .img-welcome {
-      border-top-left-radius: 2rem;
-      border-bottom-left-radius: 2rem; }
+    flex-wrap: wrap; }
+    .ourservice .tent .item {
+      -webkit-box-flex: 0;
+      -webkit-flex: 0 0 25%;
+      -moz-box-flex: 0;
+      -moz-flex: 0 0 25%;
+      -ms-flex: 0 0 25%;
+      flex: 0 0 25%;
+      padding: 0.5rem; }
+      .ourservice .tent .item img {
+        border-radius: 1rem;
+        -webkit-box-shadow: 0px 0px 5px 0px #e6e6e6;
+        -moz-box-shadow: 0px 0px 5px 0px #e6e6e6;
+        box-shadow: 0px 0px 5px 0px #e6e6e6; }
       @media (max-width: 991px) {
-        .ourservice .tent .img-welcome {
-          border-top-left-radius: 1rem;
-          border-bottom-left-radius: 0rem;
-          border-top-right-radius: 1rem; } }
-    .ourservice .tent .text-rightt {
-      border-top-right-radius: 2rem;
-      border-bottom-right-radius: 2rem;
-      display: flex;
-      flex-direction: column;
-      position: relative; }
-      .ourservice .tent .text-rightt .headtop {
-        margin-top: 30px;
-        font-size: 3rem; }
-        @media (max-width: 991px) {
-          .ourservice .tent .text-rightt .headtop {
-            font-size: 1.5rem;
-            margin-top: 20px; } }
-      .ourservice .tent .text-rightt .textbottom {
-        margin-top: 30px;
-        font-size: 1rem; }
-        @media (max-width: 991px) {
-          .ourservice .tent .text-rightt .textbottom {
-            font-size: 0.8rem;
-            margin-top: 15px; } }
-      .ourservice .tent .text-rightt .button {
-        position: absolute;
-        right: 1.5rem;
-        bottom: 1.5rem; }
-        @media (max-width: 991px) {
-          .ourservice .tent .text-rightt .button {
-            position: relative;
-            right: 0;
-            bottom: 0;
-            margin-top: 1.5rem; } }
-      @media (max-width: 991px) {
-        .ourservice .tent .text-rightt {
-          border-top-right-radius: 0.5rem;
-          border-bottom-right-radius: 0.5rem;
-          border-bottom-left-radius: 0.5rem;
-          padding-bottom: 1.5rem; } }
+        .ourservice .tent .item {
+          -webkit-box-flex: 0;
+          -webkit-flex: 0 0 50%;
+          -moz-box-flex: 0;
+          -moz-flex: 0 0 50%;
+          -ms-flex: 0 0 50%;
+          flex: 0 0 50%; } }
     @media (max-width: 991px) {
       .ourservice .tent {
-        flex-direction: column;
         border-radius: 1rem; } }
 
 #product {
