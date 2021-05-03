@@ -9,8 +9,14 @@
   flex-direction: row;
   justify-content: space-around;
   font-size: 0.9rem;
+  padding: 0.5rem;
+  a {
+    color: #fff;
+    span{
+      color: #fff;
+    }
+  }
   .socail {
-    
     a {
       margin-left: 10px;
       color: #fff;
@@ -26,7 +32,7 @@
   height: 70px;
   width: 100%;
   position: fixed;
-  top: 30px;
+  top: 37px;
   background: #fff;
   color: #000;
   .navbar {

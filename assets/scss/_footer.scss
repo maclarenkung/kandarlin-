@@ -1,4 +1,35 @@
-#footer {
-  background: #c0c0c0;
+.footer {
+  background: #fde5b4;
   padding: 2vw 7vw;
+  color: #ff9899;
+  .footer-l {
+    @include flexbox;
+    @include justify-content(space-between);
+    @include flex-direction(column);
+  }
+  .menuee {
+    @include flexbox;
+    @include justify-content(space-between);
+    @include flex-direction(column);
+    padding-left: 4rem;
+     a {
+      color: #ff9899;
+      span {
+        color: #ff9899;
+      }
+    }
+  }
+  .social {
+    @include flexbox;
+    @include flex-direction(column);
+    @include justify-content(space-between);
+    padding-left: 4rem;
+    color: #ff9899;
+    a {
+      color: #ff9899;
+      span {
+        color: #ff9899;
+      }
+    }
+  }
 }

@@ -1,7 +1,9 @@
 <div class="top-fixed">
     <div class="phone">
-        <i class="fas fa-phone-alt"></i>
-        <span>123456789</span>
+       <a href="callto:1234567">
+            <i class="fas fa-phone-alt"></i>
+            <span>+33 (050) 12 34 567</span>
+       </a>
     </div>
     <div class="open">
         <i class="far fa-clock"></i>
@@ -9,7 +11,7 @@
     </div>
     <div class="where">
         <i class="fas fa-map-marker-alt"></i>
-        <span>Rayong Bangkok</span>
+        <span>Rayong Bangkok, Thailand</span>
     </div>
     <div class="socail">
         <a href=""><i class="fab fa-facebook"></i></a>
