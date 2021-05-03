@@ -1,4 +1,4 @@
-<div class="top-fixed">
+<div class="top-fixed dt-show">
     <div class="phone">
        <a href="callto:1234567">
             <i class="fas fa-phone-alt"></i>
@@ -37,35 +37,66 @@
             <a class="navbar-brand" href="#">LOGO</a>
 
             <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0 ">
                 </ul>
                 <ul class="form-inlines my-2 my-lg-0">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Home </a>
+                    <a class="nav-link" href="/">Home </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
+                    <a class="nav-link" href="about.php">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link " href="#">Service</a>
+                    <a class="nav-link " href="service.php">Service</a>
                 </li>
                 <li class="nav-item ">
-                    <a class="nav-link" href="#">Promotion </a>
+                    <a class="nav-link" href="promotion.php">Promotion </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Review</a>
+                    <a class="nav-link" href="review.php">Review</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link " href="#">Shop</a>
+                    <a class="nav-link " href="shop.php">Shop</a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">News</a>
+                    <a class="nav-link" href="news.php">News</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contact Us</a>
+                    <a class="nav-link" href="contact.php">Contact Us</a>
                 </li>
                 </ul>
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0 mb-show menu-in">
+                    <div class="phone item">
+                        <a href="callto:1234567">
+                                <i class="fas fa-phone-alt"></i>
+                                <span>+33 (050) 12 34 567</span>
+                        </a>
+                    </div>
+                    <div class="open item">
+                        <i class="far fa-clock"></i>
+                        <span>Open Everyday</span>
+                    </div>
+                    <div class="where item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Rayong Bangkok, Thailand</span>
+                    </div>
+                    <div class="socail item">
+                        <a href=""><i class="fab fa-facebook"></i></a>
+                        <a href=""><i class="fab fa-line"></i></a>
+                        <a href=""><i class="fab fa-instagram"></i></a>
+                        <a href=""><i class="fab fa-youtube"></i></a>
+                    </div>
+                    <div class="comed item">
+                        <!-- <span class="basket">
+                            <i class="fas fa-shopping-basket"></i>
+                        </span> -->
+                        <!-- <br> -->
+                        <span class="click-login  "><i class="far fa-user-circle "></i> Sign in</span>
+                        <!-- <button class="click-register">click register</button> -->
+                    </div>
+                </ul>
+
+     
             </div>
         </nav>
     </div>

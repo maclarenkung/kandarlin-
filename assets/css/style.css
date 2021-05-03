@@ -385,14 +385,11 @@ body {
   -webkit-box-shadow: 1px 4px 5px 0px #b8b8b8;
   -moz-box-shadow: 1px 4px 5px 0px #b8b8b8;
   box-shadow: 1px 4px 5px 0px #b8b8b8;
-  height: 70px;
   width: 100%;
   position: fixed;
   top: 37px;
   background: #fff;
   color: #000; }
-  #headers .navbar {
-    height: 70px; }
   #headers .form-inlines {
     display: flex;
     flex-direction: row; }
@@ -408,11 +405,56 @@ body {
     @media (max-width: 991px) {
       #headers .form-inlines {
         flex-direction: column; } }
+  #headers .menu-in .item {
+    display: block;
+    padding: 0.5rem 1rem;
+    color: #ff8ba0; }
+    #headers .menu-in .item a {
+      color: #ff8ba0;
+      margin-right: 0.5rem; }
+    #headers .menu-in .item span {
+      color: #ff8ba0; }
+  @media (max-width: 991px) {
+    #headers {
+      top: 0px; } }
 
 .footer {
   background: #fde5b4;
-  padding: 2vw 7vw;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
   color: #ff9899; }
+  .footer .container {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-direction: normal;
+    -webkit-box-orient: horizontal;
+    -webkit-flex-direction: row;
+    -moz-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    padding-right: 0;
+    padding-left: 0; }
+    .footer .container .col-3s {
+      -webkit-box-flex: 0;
+      -webkit-flex: 0 0 25%;
+      -moz-box-flex: 0;
+      -moz-flex: 0 0 25%;
+      -ms-flex: 0 0 25%;
+      flex: 0 0 25%; }
+      @media (max-width: 991px) {
+        .footer .container .col-3s {
+          -webkit-box-flex: 0;
+          -webkit-flex: 0 0 100%;
+          -moz-box-flex: 0;
+          -moz-flex: 0 0 100%;
+          -ms-flex: 0 0 100%;
+          flex: 0 0 100%; } }
+    @media (max-width: 991px) {
+      .footer .container {
+        flex-direction: column; } }
   .footer .footer-l {
     display: -webkit-box;
     display: -webkit-flex;
@@ -430,6 +472,10 @@ body {
     -moz-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column; }
+  @media (max-width: 991px) {
+    .footer .aface {
+      text-align: center;
+      display: none; } }
   .footer .menuee {
     display: -webkit-box;
     display: -webkit-flex;
@@ -448,10 +494,16 @@ body {
     -ms-flex-direction: column;
     flex-direction: column;
     padding-left: 4rem; }
+    .footer .menuee span {
+      font-weight: 600; }
     .footer .menuee a {
       color: #ff9899; }
       .footer .menuee a span {
         color: #ff9899; }
+    @media (max-width: 991px) {
+      .footer .menuee {
+        text-align: center;
+        display: none; } }
   .footer .social {
     display: -webkit-box;
     display: -webkit-flex;
@@ -475,6 +527,15 @@ body {
       color: #ff9899; }
       .footer .social a span {
         color: #ff9899; }
+    .footer .social .contact {
+      font-weight: 600;
+      padding-top: 0.5rem; }
+    @media (max-width: 991px) {
+      .footer .social {
+        padding-left: 0;
+        text-align: center;
+        padding-top: 1rem;
+        font-size: 1.2rem; } }
 
 #aboutus {
   font-size: 0.75rem;
@@ -1283,7 +1344,10 @@ button {
 .wrapper {
   z-index: 1;
   position: relative;
-  margin-top: 70px; }
+  margin-top: 93px; }
+  @media (max-width: 991px) {
+    .wrapper {
+      margin-top: 56px; } }
 
 .welcome {
   padding-top: 2rem; }
@@ -1425,6 +1489,29 @@ button {
   align-items: center;
   background: #000;
   color: #fff; }
+  .glad .btn {
+    margin-top: 0.5rem; }
+  @media (max-width: 991px) {
+    .glad {
+      font-size: 0.8rem;
+      -webkit-box-direction: normal;
+      -webkit-box-orient: vertical;
+      -webkit-flex-direction: column;
+      -moz-flex-direction: column;
+      -ms-flex-direction: column;
+      flex-direction: column; } }
+
+.mb-show {
+  display: none; }
+  @media (max-width: 991px) {
+    .mb-show {
+      display: block; } }
+
+.dt-show {
+  display: flex; }
+  @media (max-width: 991px) {
+    .dt-show {
+      display: none; } }
 
 #product {
   margin-top: 50px; }
@@ -1735,8 +1822,41 @@ button {
 
 .footer {
   background: #fde5b4;
-  padding: 2vw 7vw;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
   color: #ff9899; }
+  .footer .container {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-direction: normal;
+    -webkit-box-orient: horizontal;
+    -webkit-flex-direction: row;
+    -moz-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    padding-right: 0;
+    padding-left: 0; }
+    .footer .container .col-3s {
+      -webkit-box-flex: 0;
+      -webkit-flex: 0 0 25%;
+      -moz-box-flex: 0;
+      -moz-flex: 0 0 25%;
+      -ms-flex: 0 0 25%;
+      flex: 0 0 25%; }
+      @media (max-width: 991px) {
+        .footer .container .col-3s {
+          -webkit-box-flex: 0;
+          -webkit-flex: 0 0 100%;
+          -moz-box-flex: 0;
+          -moz-flex: 0 0 100%;
+          -ms-flex: 0 0 100%;
+          flex: 0 0 100%; } }
+    @media (max-width: 991px) {
+      .footer .container {
+        flex-direction: column; } }
   .footer .footer-l {
     display: -webkit-box;
     display: -webkit-flex;
@@ -1754,6 +1874,10 @@ button {
     -moz-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column; }
+  @media (max-width: 991px) {
+    .footer .aface {
+      text-align: center;
+      display: none; } }
   .footer .menuee {
     display: -webkit-box;
     display: -webkit-flex;
@@ -1772,10 +1896,16 @@ button {
     -ms-flex-direction: column;
     flex-direction: column;
     padding-left: 4rem; }
+    .footer .menuee span {
+      font-weight: 600; }
     .footer .menuee a {
       color: #ff9899; }
       .footer .menuee a span {
         color: #ff9899; }
+    @media (max-width: 991px) {
+      .footer .menuee {
+        text-align: center;
+        display: none; } }
   .footer .social {
     display: -webkit-box;
     display: -webkit-flex;
@@ -1799,5 +1929,14 @@ button {
       color: #ff9899; }
       .footer .social a span {
         color: #ff9899; }
+    .footer .social .contact {
+      font-weight: 600;
+      padding-top: 0.5rem; }
+    @media (max-width: 991px) {
+      .footer .social {
+        padding-left: 0;
+        text-align: center;
+        padding-top: 1rem;
+        font-size: 1.2rem; } }
 
 /*# sourceMappingURL=style.css.map */

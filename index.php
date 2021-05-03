@@ -3,7 +3,7 @@
 <body>
     <?php  require_once('./inc/inc_header.php')?>
     
-    <div class="wrapper">
+    <div class="wrapper fw">
         
         <div class="sec-banner  w-100 ">
             <div class="position-relative">
@@ -106,7 +106,7 @@
                 <h2>Testimonails</h2>
             </div>
             <div class="tent">
-               <div class="swiper-container">
+               <div class="swiper-container test-tim">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
                             <img src="assets/image/text-img.jpg"
@@ -140,7 +140,7 @@
                 </div>
             </div>
             <div class="tent-b">
-                <div class="swiper-container">
+                <div class="swiper-container test-tim2">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
                             <img src="assets/image/bgs.jpg"
@@ -189,6 +189,7 @@
     <?php require_once('./inc/inc_footer.php')?>
     <?php require_once('./inc/inc_script.php')?>
     <script type="text/javascript" src="assets/js/main.js"></script>
+    
 
 </body>
 

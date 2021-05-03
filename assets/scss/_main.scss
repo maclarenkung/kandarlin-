@@ -409,7 +409,10 @@
 .wrapper {
   z-index: 1;
   position: relative;
-  margin-top: 70px;
+  margin-top: 93px;
+  @media #{$screen-md-max} {
+    margin-top: 56px;
+  }
 }
 
 .welcome {
@@ -540,7 +543,7 @@
   .tent {
     .swiper-slide {
       padding: 3rem;
-      img{
+      img {
         border-radius: 1rem;
       }
     }
@@ -551,11 +554,30 @@
     }
   }
 }
-.glad{
+.glad {
   padding: 0.5rem;
   @include flexbox;
   @include justify-content(space-around);
   @include align-items(center);
   background: #000;
   color: #fff;
+  .btn {
+    margin-top: 0.5rem;
+  }
+  @media #{$screen-md-max} {
+    font-size: 0.8rem;
+    @include flex-direction(column);
+  }
+}
+.mb-show {
+  display: none;
+  @media #{$screen-md-max} {
+    display: block;
+  }
+}
+.dt-show {
+  display: flex;
+  @media #{$screen-md-max} {
+    display: none;
+  }
 }

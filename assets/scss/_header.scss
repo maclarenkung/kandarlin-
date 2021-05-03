@@ -12,7 +12,7 @@
   padding: 0.5rem;
   a {
     color: #fff;
-    span{
+    span {
       color: #fff;
     }
   }
@@ -29,14 +29,14 @@
   -webkit-box-shadow: 1px 4px 5px 0px rgba(184, 184, 184, 1);
   -moz-box-shadow: 1px 4px 5px 0px rgba(184, 184, 184, 1);
   box-shadow: 1px 4px 5px 0px rgba(184, 184, 184, 1);
-  height: 70px;
+  // height: 70px;
   width: 100%;
   position: fixed;
   top: 37px;
   background: #fff;
   color: #000;
   .navbar {
-    height: 70px;
+    // height: 70px;
   }
   .form-inlines {
     display: flex;
@@ -55,5 +55,26 @@
     @media #{$screen-md-max} {
       flex-direction: column;
     }
+  }
+  .menu-in {
+    .item {
+      display: block;
+      padding: 0.5rem 1rem;
+      color: #ff8ba0;
+      a {
+        color: #ff8ba0;
+        margin-right: 0.5rem;
+      }
+      span {
+        color: #ff8ba0;
+      }
+    }
+    .comed{
+      
+    }
+  }
+
+  @media #{$screen-md-max} {
+    top: 0px;
   }
 }
