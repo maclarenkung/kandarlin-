@@ -73,7 +73,9 @@
        <div class="sec-login fade">
             <div class="block-overlay" style="display:none;"></div>
             <div class="container">
-                <a class="btn-close" href="javascript:void(0);">X</a>
+              <div class="block-close">
+                    <a class="btn-close" href="javascript:void(0);">X</a>
+                </div>
                 <div class="row justify-content-center">
                     <div class="col-12 col-md-5">
                         <div class="group-content text-center">
@@ -91,7 +93,7 @@
                                     <input type="password" placeholder="Password">
                                 </div>
                                 <div class="group-content text-center">
-                                    <button type="submit " class="btn btn-primary">Sign up</button>
+                                    <button type="submit" class="btn fw">Sign up</button>
                                 </div>
                                 <div class="group-content text-center">
                                     <p><a class="click-to-register" href="javascript:void(0);">Sign up</a></p>
@@ -107,7 +109,9 @@
         <div class="sec-register fade">
             <div class="block-overlay" style="display:none;"></div>
             <div class="container">
-                <a class="btn-close" href="javascript:void(0);">X</a>
+              <div class="block-close">
+                    <a class="btn-close" href="javascript:void(0);">X</a>
+                </div>
                 <div class="row justify-content-center">
                     <div class="col-12 col-md-5">
                         <div class="group-content text-center">
@@ -118,6 +122,14 @@
                                 <h4>Create You Account</h4>
                             </div>
                             <form>
+                                <div class="form-row">
+                                    <div class="form-group col-md-6">
+                                        <input type="email" placeholder="First name">
+                                    </div>
+                                    <div class="form-group col-md-6">
+                                        <input type="text"  placeholder="Last name">
+                                    </div>
+                                </div>
                                 <div class="form-group mb-3">
                                     <input type="text" placeholder="Email Address">
                                 </div>
@@ -128,7 +140,7 @@
                                     <input type="password" placeholder="Confirm Password">
                                 </div>
                                 <div class="group-content text-center">
-                                    <button type="submit " class="btn btn-primary">Sign in</button>
+                                    <button type="submit " class="btn fw ">Sign in</button>
                                 </div>
                                 <div class="form-check text-center">
                                     <input type="checkbox" class="form-check-input" id="exampleCheck1">
