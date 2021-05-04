@@ -14,7 +14,7 @@
                             </div>
                             <div class="content-creater">
                                 <div class="thumb-nails">
-                                    <img src="/assets/image/bg-welcome.jpg" alt="">
+                                    <img src="assets/image/bg-welcome.jpg" alt="">
                                     <div class="thumb-nails-body">
                                         <div class="thumb-nails-title">Kandarlin Clinic</div>
                                         <div class="thumb-nails-time">May 26, 2020</div>
@@ -29,7 +29,7 @@
 
                            <div class="article-detail">
                             <div class="group-content">
-                                    <img class="fw" src="/assets/image/bgs.jpg" alt="">
+                                    <img class="fw" src="assets/image/bgs.jpg" alt="">
                                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt fugit maxime velit quam perspiciatis ipsa nam esse quo vel, perferendis nostrum minus molestiae veritatis consequuntur non consectetur, odio doloremque adipisci.</p>
                                 </div>
                            

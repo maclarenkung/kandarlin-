@@ -9,7 +9,7 @@
                     <div class="col-12 col-md-12">
                         <div class="block-success">
                             <div class="group-content text-center">
-                                <img src="/assets/image/icon/shopping-cart.png" alt="icon cart">
+                                <img src="assets/image/icon/shopping-cart.png" alt="icon cart">
                             </div>
                             <div class="group-content text-center">
                                 <h3>การสั่งซื้อสำเร็จ! <br class="d-block d-md-none">ขอบคุณที่ไวว้างใจในสินค้าและบริการจากเรา</h3>

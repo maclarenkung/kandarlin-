@@ -147,7 +147,7 @@ $(document).ready(function () {
 	//================= SWIPER
 	////////////////////////////////////////////////////
 
-	var sec_banner = new Swiper('.sec-banner .swiper-container', {
+	var sec_banner = new Swiper('.slide-top .swiper-container', {
 		speed: 600,
 		pagination: {
 			el: '.swiper-pagination',
@@ -159,7 +159,7 @@ $(document).ready(function () {
 		},
 		
 	});
-	var sec_banner2 = new Swiper('.testim .test-tim', {
+	var sec_banner2 = new Swiper('.tent .test-tim', {
 		speed: 600,
 		slidesPerView: 3,
 		// spaceBetween: 20,
@@ -168,8 +168,8 @@ $(document).ready(function () {
 			clickable: true,
 		},
 		navigation: {
-			nextEl: '.swiper-button-next',
-			prevEl: '.swiper-button-prev',
+			nextEl: '.test-tim-r',
+			prevEl: '.test-tim-l',
 		},
 		breakpoints: {
 			992: {
@@ -179,7 +179,7 @@ $(document).ready(function () {
 			
 		}
 	});
-	var sec_banner3 = new Swiper('.testim .test-tim2', {
+	var sec_banner3 = new Swiper('.tent-b .test-tim2', {
 		speed: 600,
 		slidesPerView: 3,
 		// spaceBetween: 20,
@@ -188,8 +188,8 @@ $(document).ready(function () {
 			clickable: true,
 		},
 		navigation: {
-			nextEl: '.swiper-button-next',
-			prevEl: '.swiper-button-prev',
+			nextEl: ' .right-w',
+			prevEl: ' .left-w',
 		},
 		breakpoints: {
 			992: {

@@ -1,0 +1,90 @@
+.sec-contact-card {
+  padding-top: 2rem;
+  .head-top {
+    padding-bottom: 2rem;
+    p {
+      font-size: 1.5rem;
+    }
+    h2 {
+      font-size: 2.5rem;
+      font-weight: 600;
+    }
+  }
+  .tent {
+    display: flex;
+    flex-direction: row;
+
+    .img-welcome {
+        border-radius: 2rem;
+      @media #{$screen-md-max} {
+      }
+    }
+    .text-rightt {
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      .headtop {
+        text-align: center;
+        margin-top: 30px;
+        h1 {
+          font-size: 3rem;
+          font-weight: 600;
+        }
+        p {
+          font-size: 2rem;
+        }
+
+        @media #{$screen-md-max} {
+          font-size: 1.5rem;
+          margin-top: 20px;
+        }
+      }
+      .textbottom {
+        margin-top: 20px;
+        font-size: 1rem;
+        text-align: center;
+        line-height: 1.5;
+        @include flexbox;
+        @include flex-direction(column);
+        span {
+          a {
+            color: #000;
+          }
+        }
+        @media #{$screen-md-max} {
+          font-size: 0.8rem;
+          margin-top: 15px;
+        }
+      }
+      .mds {
+        padding-left: 1.5rem;
+        font-size: 1.3rem;
+        text-align: left;
+        a{
+            margin-left: 1rem;
+        }
+         @media #{$screen-md-max} {
+          text-align: center;
+        }
+      }
+      .button {
+        position: absolute;
+        right: 1.5rem;
+        bottom: 1.5rem;
+        @media #{$screen-md-max} {
+          position: relative;
+          right: 0;
+          bottom: 0;
+          margin-top: 1.5rem;
+        }
+      }
+      @media #{$screen-md-max} {
+        padding-bottom: 1.5rem;
+      }
+    }
+    @media #{$screen-md-max} {
+      flex-direction: column;
+      border-radius: 1rem;
+    }
+  }
+}

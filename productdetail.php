@@ -4,7 +4,7 @@
     <?php  require_once('./inc/inc_header.php')?>
     <div class="wrapper">
 
-        <div class="sec-detail float-left w-100 ">
+        <div class="sec-detail float-left w-100 pt-4">
             <div class="position-relative">
                 <div class="container">
                     <div class="row">

@@ -5,27 +5,23 @@
     
     <div class="wrapper ">
         
-        <div class="slide-top ">
-            <div class="position-relative">
-                <div class="swiper-container">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <img src="assets/image/bgs.jpg"
-                                alt="" class="img-fluid">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="assets/image/bgs.jpg"
-                                alt="" class="img-fluid">
-                        </div>
-                    </div>
-                    <!-- Add Pagination -->
-                    <div class="swiper-pagination"></div>
+       <div class="sec-banner fw ">
+            <img class="fw" src="assets/image/bg-banner.jpg" alt="">
+            <div class="banner-title">
+                <div class="group-content text-md-left text-center">
+                    <h1><strong>About Us</strong></h1>
                 </div>
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a target="_blank" href="#">Home</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">About Us</li>
+                    </ol>
+                </nav>
             </div>
         </div>
-        <div class="welcome  container">
+        <div class="welcome container ">
             <div class="head-top text-center">
-                <p>Welcome to</p>
+                <p class="">Welcome to</p>
                 <h2>Kandarlin Clinic</h2>
 
             </div>
@@ -49,40 +45,8 @@
                 </div>
             </div>
         </div>
-        <div class="ourservice  container">
-            <div class="head-top text-center">
-                <p>Our</p>
-                <h2>Service</h2>
-
-            </div>
-            <div class="tent">
-                <div class="item">
-                    <img src="assets/image/ourservice.jpg" alt="" class="img-our img-fluid">
-                </div>
-                 <div class="item">
-                    <img src="assets/image/ourservice.jpg" alt="" class="img-our img-fluid">
-                </div>
-                 <div class="item">
-                    <img src="assets/image/ourservice.jpg" alt="" class="img-our img-fluid">
-                </div>
-                 <div class="item">
-                    <img src="assets/image/ourservice.jpg" alt="" class="img-our img-fluid">
-                </div>
-                <div class="item">
-                    <img src="assets/image/ourservice.jpg" alt="" class="img-our img-fluid">
-                </div>
-                 <div class="item">
-                    <img src="assets/image/ourservice.jpg" alt="" class="img-our img-fluid">
-                </div>
-                 <div class="item">
-                    <img src="assets/image/ourservice.jpg" alt="" class="img-our img-fluid">
-                </div>
-                 <div class="item">
-                    <img src="assets/image/ourservice.jpg" alt="" class="img-our img-fluid">
-                </div>
-            </div>
-        </div>
-        <div class="slide-top   pt-4">
+        
+        <div class="sec-banner  w-100 pt-4">
             <div class="position-relative">
                 <div class="swiper-container">
                     <div class="swiper-wrapper">
@@ -100,46 +64,13 @@
                 </div>
             </div>
         </div>
-        <div class="testim  container">
+        <div class="testim container">
             <div class="head-top text-center">
                 <p>patient</p>
                 <h2>Testimonails</h2>
             </div>
-            <div class="tent">
-               <div class="swiper-container test-tim">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <img src="assets/image/text-img.jpg"
-                                alt="" class="img-fluid">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="assets/image/text-img.jpg"
-                                alt="" class="img-fluid">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="assets/image/text-img.jpg"
-                                alt="" class="img-fluid">
-                        </div>
-                         <div class="swiper-slide">
-                            <img src="assets/image/text-img.jpg"
-                                alt="" class="img-fluid">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="assets/image/text-img.jpg"
-                                alt="" class="img-fluid">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="assets/image/text-img.jpg"
-                                alt="" class="img-fluid">
-                        </div>
-                    </div>
-                    <!-- Add Pagination -->
-                     <div class="swiper-button-next test-tim-r"></div>
-                     <div class="swiper-button-prev test-tim-l"></div>
-                    <div class="swiper-pagination"></div>
-                </div>
-            </div>
-            <div class="tent-b ">
+           
+            <div class="tent-b">
                 <div class="swiper-container test-tim2">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
@@ -174,7 +105,7 @@
                 </div>
             </div>
         </div>
-       <div class="glad ">
+       <div class="glad">
            <div>
                <span>Glad to give advise and assistance for any kind of desire Geauty</span>
            </div>

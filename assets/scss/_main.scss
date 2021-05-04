@@ -562,13 +562,58 @@
   background: #000;
   color: #fff;
   .btn {
-    margin-top: 0.5rem;
+    @media #{$screen-md-max} {
+      margin-top: 0.5rem;
+    }
   }
   @media #{$screen-md-max} {
     font-size: 0.8rem;
     @include flex-direction(column);
   }
 }
+
+
+.review {
+  @include flexbox;
+  @include align-items(center);
+  padding-top: 3rem;
+  padding-bottom: 10rem;
+  .head-top {
+    padding-bottom: 2rem;
+    p {
+      font-size: 1.5rem;
+    }
+    h2 {
+      font-size: 2.5rem;
+      font-weight: 600;
+    }
+  }
+  .tent {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    .item {
+      @include flex(0 0 25%);
+      padding: 0.5rem;
+      img {
+        border-radius: 1rem;
+        -webkit-box-shadow: 0px 0px 5px 0px rgba(230, 230, 230, 1);
+        -moz-box-shadow: 0px 0px 5px 0px rgba(230, 230, 230, 1);
+        box-shadow: 0px 0px 5px 0px rgba(230, 230, 230, 1);
+      }
+      @media #{$screen-md-max} {
+        @include flex(0 0 50%);
+      }
+    }
+
+    @media #{$screen-md-max} {
+      // flex-direction: column;
+      border-radius: 1rem;
+    }
+  }
+}
+
+
 .mb-show {
   display: none;
   @media #{$screen-md-max} {

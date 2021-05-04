@@ -56,10 +56,10 @@
                     <a class="nav-link" href="review.php">Review</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link " href="shop.php">Shop</a>
+                    <a class="nav-link " href="product.php">Shop</a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="news.php">News</a>
+                    <a class="nav-link" href="article.php">News</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="contact.php">Contact Us</a>
@@ -101,13 +101,11 @@
         </nav>
     </div>
 </div>
-
-<div class="fw ">
-       <div class="sec-login fade">
+<div class="sec-login fade">
             <div class="block-overlay" style="display:none;"></div>
             <div class="container">
-              <div class="block-close">
-                    <a class="btn-close" href="javascript:void(0);">X</a>
+                <div class="block-close">
+                        <a class="btn-close" href="javascript:void(0);">X</a>
                 </div>
                 <div class="row justify-content-center">
                     <div class="col-12 col-md-5">
@@ -136,10 +134,10 @@
                     </div>
                 </div>
             </div>
-        </div>
+</div>
 
 
-        <div class="sec-register fade">
+<div class="sec-register fade">
             <div class="block-overlay" style="display:none;"></div>
             <div class="container">
               <div class="block-close">
@@ -190,5 +188,6 @@
                     </div>
                 </div>
             </div>
-        </div>
-   </div>
+</div>
+
+

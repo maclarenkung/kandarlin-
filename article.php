@@ -3,8 +3,8 @@
 <body>
     <?php  require_once('./inc/inc_header.php')?>
     <div class="wrapper">
-        <div class="sec-banner fw pt-4">
-            <img class="fw" src="/assets/image/bg-banner.jpg" alt="">
+        <div class="sec-banner fw ">
+            <img class="fw" src="assets/image/bg-banner.jpg" alt="">
             <div class="banner-title">
                 <div class="group-content text-md-left text-center">
                     <h1><strong>News & Articles</strong></h1>
@@ -26,7 +26,7 @@
                         <div class="card mb-3">
                             <div class="row g-0">
                                 <div class="col-md-5">
-                                    <img class="fw" src="/assets/image/bg-article.jpg" alt="...">
+                                    <img class="fw" src="assets/image/bg-article.jpg" alt="...">
                                 </div>
                                 <div class="col-md-7">
                                     <div class="card-body">
@@ -45,7 +45,7 @@
                                         <div class="content-creater">
 
                                             <div class="thumb-nails">
-                                                <img src="/assets/image/bg-welcome.jpg" alt="">
+                                                <img src="assets/image/bg-welcome.jpg" alt="">
                                                 <div class="thumb-nails-body">
                                                     <div class="thumb-nails-title">Kandarlin Clinic</div>
                                                     <div class="thumb-nails-time">May 26, 2020</div>
@@ -59,7 +59,7 @@
                                         </div>
 
                                         <div class="block-btn-bottom">
-                                            <a href="javascript:void(0);" class="btn">READ MORE </a>
+                                            <a href="article-detail.php" class="btn">READ MORE </a>
                                         </div>
                                     </div>
                                 </div>
